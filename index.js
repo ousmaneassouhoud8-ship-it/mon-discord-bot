@@ -21,9 +21,3 @@ client.on('messageCreate', message => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.get('/', (req, res) => res.send('Bot Discord en ligne !'));
-app.listen(PORT, () => console.log(`Serveur web lancé sur le port ${PORT}`));
