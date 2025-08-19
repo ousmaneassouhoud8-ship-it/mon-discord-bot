@@ -11,3 +11,8 @@
     "dotenv": "^16.4.5"
   }
 }
+"dependencies": {
+  "discord.js": "ta_version",
+  "dotenv": "ta_version",
+  "express": "^4.19.2"
+}
